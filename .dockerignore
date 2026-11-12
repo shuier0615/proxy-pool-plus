@@ -1,0 +1,33 @@
+# 版本控制与 IDE
+.git
+.gitignore
+.idea/
+.vscode/
+.claude/
+
+# 本地虚拟环境（平台相关的二进制，进镜像纯属浪费且体积巨大）
+.venv/
+venv/
+
+# Python 缓存与测试产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# 运行时产物
+log/
+*.log
+proxy_pool.pid
+
+# 文档站点构建产物
+site/
+
+# 操作系统杂项
+.DS_Store
+Thumbs.db
